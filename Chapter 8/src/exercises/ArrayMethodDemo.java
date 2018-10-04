@@ -25,7 +25,7 @@ public class ArrayMethodDemo {
 	   public static void display(int[] arr)
 	   {
 	      int i;
-	      System.out.print("The numbers in the array are:");
+	      System.out.print("The numbers in the array are >> ");
 	      for(i = 0; i < arr.length; ++i)
 	         System.out.print(" " + arr[i]);
 	   }
@@ -33,7 +33,7 @@ public class ArrayMethodDemo {
 	   public static void reverse(int[] arr)
 	   {
 	      int i;
-	      System.out.print("The numbers in the array in reverse order are:");
+	      System.out.print("The numbers in the array in reverse order are >>");
 	      for(i = 9; i >= 0; --i)
 	         System.out.print(" " + arr[i]);
 	   }
@@ -42,7 +42,7 @@ public class ArrayMethodDemo {
 	   {
 	      int i;
 	      int sum = 0;
-	      System.out.print("The total sum of the numbers in the array is ");
+	      System.out.print("The total sum of the numbers in the array is >> ");
 	      for(i = 0; i < arr.length; ++i)
 	         sum = sum + arr[i];
 	      System.out.print(sum);
@@ -56,8 +56,8 @@ public class ArrayMethodDemo {
 	      for(i = 0; i < arr.length; ++i)
 	        sum = sum + arr[i];
 	      avg = sum / 10;
-	      System.out.println("The average of the numbers in the array is " + avg);
-	      System.out.print("All numbers in the array that are greather than the average of the numbers is ");
+	      System.out.println("The average of the numbers in the array is >> " + avg);
+	      System.out.print("All numbers in the array that are greather than the average of the numbers is >> ");
 	      for(i = 0; i < arr.length; ++i)
 	      {
 	         if(arr[i] > avg)
