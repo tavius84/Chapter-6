@@ -11,17 +11,23 @@ public class ArrayPractice2 {
 		int quit = 0;
 		double total = 0;
 		int i = 0;
-		do {	
-		System.out.println("numbers in order " + arrayNums[i]);
-        System.out.println("Print numbers last to first");
-			
+		double average = 0;
 		
-        System.out.println("to quit press 999!" );
-		quit = input.nextInt();
-		total = total + arrayNums[i];
-		i = i + i;
+		do {	
+			
+				System.out.println("Enter a number >> ");
+				total = total + arrayNums[i];
+				arrayNums[i] = input.nextDouble();
+				average = (total/ arrayNums.length);
+				System.out.println("Press 999 to quit.");
+				quit = input.nextInt();
+
+          
+		
+		
 	}while(quit!= 999);
-	 System.out.println("Total >> " + total);
+	System.out.println("Total >> " + total);	
+		
 	}
 
 }
